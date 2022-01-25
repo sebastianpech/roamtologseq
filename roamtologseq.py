@@ -1,6 +1,5 @@
 import json
 import re
-from typing import NamedTuple
 import urllib
 from posixpath import splitext
 import os
@@ -9,7 +8,6 @@ import magic # Requires libmagic. Install separately eg. brew install libmagic o
 import mimetypes
 
 import dateutil.parser
-from datetime import datetime
 from collections import OrderedDict
 
 # -- Convert from roam attribute to logseq property
